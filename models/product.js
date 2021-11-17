@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+require('dotenv').config();
 
 // const url = 'mongodb+srv://logistics_user:codename47@cluster0.mqjim.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
