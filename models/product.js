@@ -3,7 +3,7 @@ require('dotenv').config();
 
 // const url = 'mongodb+srv://logistics_user:codename47@cluster0.mqjim.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
-const url = process.env.MONGODB_URIMONGODB_URI 
+const url = process.env.MONGODB_URI
 console.log('connecting to', url)
 console.log('--------------------')
 
